@@ -11,7 +11,8 @@ my_circle.pensize(12)
 my_circle.hideturtle()
 my_turtle.shape('turtle')
 my_turtle.speed(7)
-my_circle.penup() 
+my_circle.penup()
+my_turtle.penup()
 my_circle.goto(randint(-300, 300), randint(-200, 170))  
 my_circle.color(randint(0, 255),
       randint(0, 255),
